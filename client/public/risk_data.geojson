@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "risk_level": "High",
+        "issue": "Loss of green space"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.4, 43.7],
+          [-79.3, 43.7],
+          [-79.3, 43.75],
+          [-79.4, 43.75],
+          [-79.4, 43.7]
+        ]]
+      }
+    }
+  ]
+}

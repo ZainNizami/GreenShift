@@ -1,0 +1,56 @@
+.popup-box {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 260px;
+  resize: both;
+  overflow: auto;
+  min-width: 200px;
+  min-height: 150px;
+  z-index: 1000;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f5f9;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: move;
+  user-select: none;
+}
+
+.popup-title {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1f2937;
+}
+
+.popup-score {
+  background: #1e293b;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.popup-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #888;
+}
+
+.popup-body {
+  padding: 10px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
+.popup-body div {
+  margin-bottom: 6px;
+}
