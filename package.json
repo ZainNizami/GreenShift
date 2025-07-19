@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    // "install-server": "npm install --prefix server",
-    // "install-client": "npm install --prefix client",
-    // "install": "npm run install-server && npm run install-client",
-    // "server": "npm run watch --prefix server",
-    // "client": "npm start --prefix client"
-    // "deploy": "npm run build --prefix client && npm start --prefix server"
-    // "watch": "concurrently "npm run server" "npm run client"",
-    // "test": "echo "Error: no test specified" && exit 1
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-client",
+    "client": "npm start --prefix client",
+    "flask-window": "cd server && .venv\\Scripts\\activate && flask run",
+    "flask-mac": "cd server && source .venv/bin/activate && flask run",
+    "dev-window": "concurrently \"npm run client\" \"npm run flask-window\"",
+    "dev-mac": "concurrently \"npm run client\" \"npm run flask-mac\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
 }
