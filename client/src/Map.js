@@ -16,6 +16,8 @@ function Map({ onFeatureClick, onBackgroundClick }) {
       zoom: 10,
     });
 
+    window.mapInstance = map;
+
     map.on("load", () => {
       map.addSource("torontoGrid", {
         type: "geojson",
@@ -50,7 +52,6 @@ function Map({ onFeatureClick, onBackgroundClick }) {
 
       if (features.length > 0) {
         const clickedFeature = features[0];
-        const { lng, lat } = e.lngLat;
 
         onFeatureClick(
           {
@@ -63,7 +64,7 @@ function Map({ onFeatureClick, onBackgroundClick }) {
             riskLevel: "Very Low",
             riskPercent: 0.9,
           },
-          [lng, lat]
+          e.point
         );
       } else {
         onBackgroundClick();

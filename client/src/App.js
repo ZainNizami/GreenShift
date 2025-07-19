@@ -12,17 +12,25 @@ function App() {
     <div className="app-container">
       <Map
         onFeatureClick={(data, coords) => {
+          console.log("Feature Clicked!", data, coords);
           setPopupData(data);
           setPopupCoords(coords);
           setShowPopup(true);
         }}
-        onBackgroundClick={() => setShowPopup(false)}
+        onBackgroundClick={() => {
+          setShowPopup(false);
+          setPopupData(null);
+        }}
       />
+
       {showPopup && popupData && (
         <GridPopUp
           data={popupData}
-          onClose={() => setShowPopup(false)}
           position={popupCoords}
+          onClose={() => {
+            setShowPopup(false);
+            setPopupData(null);
+          }}
         />
       )}
     </div>
