@@ -1,7 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import "./Map.css";
-import torontoGrid from "./toronto_clipped_grid.geojson";
+import './components/legend.css';
+import Legend from './components/Legend.jsx';
+import torontoGridRaw from "./toronto_clipped_grid.geojson";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
@@ -12,28 +14,57 @@ function Map({ onFeatureClick, onBackgroundClick }) {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: "mapbox://styles/mapbox/light-v10",
-      center: [-79.3832, 43.6532],
-      zoom: 10,
+      center: [-79.35, 43.7],
+      zoom: 11.5,
+      pitch: 0,
+      bearing: 0,
     });
 
     window.mapInstance = map;
 
+    // ✅ Safely assign IDs if features exist
+    const torontoGrid =
+      torontoGridRaw && torontoGridRaw.features
+        ? {
+            ...torontoGridRaw,
+            features: torontoGridRaw.features.map((f, idx) => ({
+              ...f,
+              id: idx,
+            })),
+          }
+        : torontoGridRaw;
+
+    console.log("Loaded features:", torontoGrid?.features?.length ?? "No features");
+
     map.on("load", () => {
+      // Add source
       map.addSource("torontoGrid", {
         type: "geojson",
         data: torontoGrid,
       });
 
+      // Grid fill layer with hover effect
       map.addLayer({
         id: "grid-layer",
         type: "fill",
         source: "torontoGrid",
         paint: {
-          "fill-color": "#0080ff",
-          "fill-opacity": 0.3,
+          "fill-color": [
+            "case",
+            ["boolean", ["feature-state", "hover"], false],
+            "#0059b3",
+            "#0080ff",
+          ],
+          "fill-opacity": [
+            "case",
+            ["boolean", ["feature-state", "hover"], false],
+            0.6,
+            0.3,
+          ],
         },
       });
 
+      // Grid outline layer
       map.addLayer({
         id: "grid-outline",
         type: "line",
@@ -43,16 +74,43 @@ function Map({ onFeatureClick, onBackgroundClick }) {
           "line-width": 0.5,
         },
       });
+
+      // ✅ Hover interaction
+      let hoveredId = null;
+
+      map.on("mousemove", "grid-layer", (e) => {
+        if (e.features.length > 0) {
+          if (hoveredId !== null) {
+            map.setFeatureState(
+              { source: "torontoGrid", id: hoveredId },
+              { hover: false }
+            );
+          }
+
+          hoveredId = e.features[0].id;
+          map.setFeatureState(
+            { source: "torontoGrid", id: hoveredId },
+            { hover: true }
+          );
+        }
+      });
+
+      map.on("mouseleave", "grid-layer", () => {
+        if (hoveredId !== null) {
+          map.setFeatureState(
+            { source: "torontoGrid", id: hoveredId },
+            { hover: false }
+          );
+        }
+        hoveredId = null;
+      });
     });
 
+    // ✅ Click interaction
     map.on("click", (e) => {
-      console.log("Map clicked", e.point); 
-
       const features = map.queryRenderedFeatures(e.point, {
         layers: ["grid-layer"],
       });
-
-      console.log("Features:", features);
 
       if (features.length > 0) {
         const clickedFeature = features[0];
@@ -77,14 +135,10 @@ function Map({ onFeatureClick, onBackgroundClick }) {
 
   return (
     <div className="map-placeholder" ref={mapContainerRef}>
-      <div className="legend-box">
-        <h4>Risk Levels</h4>
-        <div><span className="legend-color red"></span> 0–40: Bad</div>
-        <div><span className="legend-color yellow"></span> 41–70: Decent</div>
-        <div><span className="legend-color green"></span> 71–100: Good</div>
-      </div>
+      <Legend />
     </div>
   );
+
 }
 
 export default Map;

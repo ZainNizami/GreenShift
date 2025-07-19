@@ -1,9 +1,10 @@
 .custom-popup {
   background: linear-gradient(to bottom, #2452b0 0%, #e2e6fb 80%);
   border-radius: 24px;
-  padding: 16px;
-  width: 260px;
+  padding: 20px;
+  width: 320px;
   font-family: 'Arial', sans-serif;
+  font-size: 16px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -12,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 22px;
   color: white;
 }
 
@@ -24,37 +25,37 @@
   background: none;
   border: none;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 
 .score-section {
   background-color: white;
   border-radius: 12px;
-  margin-top: 12px;
-  padding: 8px;
+  margin-top: 14px;
+  padding: 10px;
   text-align: center;
 }
 
 .score-label {
   display: block;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 
 .score-number {
   font-family: 'Courier New', monospace;
-  font-size: 48px;
+  font-size: 64px;
   color: black;
 }
 
 .popup-breakdown {
   background: #ddd;
   border-radius: 8px;
-  padding: 8px;
-  margin-top: 12px;
-  font-size: 14px;
+  padding: 10px;
+  margin-top: 14px;
+  font-size: 16px;
 }
 
 .popup-breakdown h4 {
