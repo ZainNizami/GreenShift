@@ -1,71 +1,51 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect, useRef } from "react";
+import ReactDOM from "react-dom";
 import "./GridPopUp.css";
 
 const GridPopUp = ({ data, position, onClose }) => {
-  const popupRef = useRef(null); // ✅ always called
+  const popupRef = useRef(null);
 
   useEffect(() => {
+    if (!popupRef.current) return;
     const popup = popupRef.current;
-    if (!popup) return;
+    popup.style.left = `${position.x + 12}px`;
+    popup.style.top = `${position.y + 12}px`;
+  }, [position]);
 
-    const onMouseDown = (e) => {
-      if (!e.target.classList.contains("popup-header")) return;
-
-      const startX = e.clientX;
-      const startY = e.clientY;
-      const startLeft = popup.offsetLeft;
-      const startTop = popup.offsetTop;
-
-      const onMouseMove = (e) => {
-        popup.style.left = `${startLeft + e.clientX - startX}px`;
-        popup.style.top = `${startTop + e.clientY - startY}px`;
-      };
-
-      const onMouseUp = () => {
-        window.removeEventListener("mousemove", onMouseMove);
-        window.removeEventListener("mouseup", onMouseUp);
-      };
-
-      window.addEventListener("mousemove", onMouseMove);
-      window.addEventListener("mouseup", onMouseUp);
-    };
-
-    popup.addEventListener("mousedown", onMouseDown);
-    return () => popup.removeEventListener("mousedown", onMouseDown);
-  }, []);
-
-  // ✅ Safe to conditionally return JSX after hooks
   if (!data || !position) return null;
 
-  return (
+  return ReactDOM.createPortal(
     <div
       ref={popupRef}
-      className="popup-container"
+      className="custom-popup"
       style={{
-        position: "absolute",
-        top: position.y,
-        left: position.x,
+        position: "fixed",
         zIndex: 1000,
-        backgroundColor: "white",
-        padding: "16px",
-        borderRadius: "8px",
-        boxShadow: "0 2px 10px rgba(0,0,0,0.2)"
       }}
     >
       <div className="popup-header">
-        <strong>{data.riskLevel} Risk</strong>
-        <span className="popup-percent">{(data.riskPercent * 100).toFixed(1)}%</span>
+        <span className="popup-title">{data.neighbourhood}</span>
         <button className="popup-close" onClick={onClose}>×</button>
       </div>
-      <div className="popup-content">
-        <p><strong>Cell ID:</strong> {data.cellId}</p>
-        <p><strong>Total Complaints:</strong> {data.totalComplaints}</p>
-        <p><strong>Blight Complaints:</strong> {data.blightComplaints}</p>
-        <p><strong>Recent Complaints:</strong> {data.recentBlightComplaints}</p>
-        <p><strong>Trend:</strong> {data.trend}</p>
-        <p><strong>Common Blight:</strong> {data.commonBlight}</p>
+
+      <div className="score-section">
+        <span className="score-label">Sustainability Score</span>
+        <div className="score-number">
+          {Math.round(data.sustainability_score)}
+        </div>
       </div>
-    </div>
+
+      <div className="popup-breakdown">
+        <h4>Breakdown</h4>
+        <ul>
+          <li>Green Score = {data.breakdown?.green_score ?? "N/A"}</li>
+          <li>Affordability Score = {data.breakdown?.affordability_score ?? "N/A"}</li>
+          <li>Permit Score = {data.breakdown?.permit_score ?? "N/A"}</li>
+          <li>Completeness Score = {data.breakdown?.completeness_score ?? "N/A"}</li>
+        </ul>
+      </div>
+    </div>,
+    document.body
   );
 };
 

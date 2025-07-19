@@ -46,25 +46,26 @@ function Map({ onFeatureClick, onBackgroundClick }) {
     });
 
     map.on("click", (e) => {
+      console.log("Map clicked", e.point); 
+
       const features = map.queryRenderedFeatures(e.point, {
         layers: ["grid-layer"],
       });
 
+      console.log("Features:", features);
+
       if (features.length > 0) {
         const clickedFeature = features[0];
+        const { x, y } = e.point;
 
         onFeatureClick(
           {
-            cellId: clickedFeature.properties?.cellId || 3993,
-            totalComplaints: 1.3,
-            blightComplaints: 0.2,
-            recentBlightComplaints: 0.5,
-            trend: "Increasing",
-            commonBlight: "Litter / Sidewalk & Blvd / Pick Up Request",
-            riskLevel: "Very Low",
-            riskPercent: 0.9,
+            neighbourhood: clickedFeature.properties?.neighbourhood || "Unknown",
+            sustainability_score: clickedFeature.properties?.sustainability_score ?? 0,
+            risk_level: clickedFeature.properties?.risk_level || "Unknown",
+            breakdown: clickedFeature.properties?.breakdown ?? {},
           },
-          e.point
+          { x, y }
         );
       } else {
         onBackgroundClick();
