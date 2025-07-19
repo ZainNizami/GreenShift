@@ -6,10 +6,10 @@
     "install-client": "npm install --prefix client",
     "install": "npm run install-client",
     "client": "npm start --prefix client",
-    "flask-window": "cd server && .venv\\Scripts\\activate && flask run",
-    "flask-mac": "cd server && source .venv/bin/activate && flask run",
-    "dev-window": "concurrently \"npm run client\" \"npm run flask-window\"",
-    "dev-mac": "concurrently \"npm run client\" \"npm run flask-mac\""
+    "server-w": "cd server && .venv\\Scripts\\activate && flask run",
+    "server-m": "cd server && source .venv/bin/activate && flask run",
+    "dev-w": "concurrently \"npm run client\" \"npm run server-w\"",
+    "dev-m": "concurrently \"npm run client\" \"npm run server-m\""
   },
   "keywords": [],
   "author": "",
