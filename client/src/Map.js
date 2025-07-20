@@ -142,3 +142,5 @@ function Map({ onFeatureClick, onBackgroundClick }) {
 }
 
 export default Map;
+
+//commit
