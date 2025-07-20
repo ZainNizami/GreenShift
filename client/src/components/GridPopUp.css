@@ -1,11 +1,11 @@
 .custom-popup {
   background: linear-gradient(to bottom, #2452b0 0%, #e2e6fb 80%);
   border-radius: 18px;
-  padding: 0.75vw 1vw;
+  padding: 0.9vw 1.2vw;
   width: fit-content;
   max-width: 95vw;
   font-family: 'Arial', sans-serif;
-  font-size: clamp(18px, 1.8vw, 24px); /* was 14–16px */
+  font-size: clamp(20px, 2vw, 26px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
   z-index: 1000;
 }
@@ -15,60 +15,60 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 900;
-  font-size: clamp(26px, 2.5vw, 32px); /* was 20–24px */
+  font-size: clamp(30px, 2.8vw, 36px);
   color: white;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .popup-title {
   text-transform: uppercase;
-  margin-right: 14px;
+  margin-right: 16px;
 }
 
 .popup-close {
   background: none;
   border: none;
   color: white;
-  font-size: clamp(24px, 2.5vw, 32px); /* bigger close button */
+  font-size: clamp(28px, 3vw, 36px);
   cursor: pointer;
 }
 
 .score-section {
   background-color: white;
-  border-radius: 12px;
-  padding: 16px 20px;
+  border-radius: 14px;
+  padding: 20px 24px;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .score-label {
   font-weight: bold;
-  font-size: clamp(18px, 1.6vw, 22px);
+  font-size: clamp(20px, 2vw, 24px);
   margin-bottom: 6px;
   color: black;
 }
 
 .score-number {
   font-family: 'Courier New', monospace;
-  font-size: clamp(50px, 6vw, 70px); /* was 34–56px */
+  font-size: clamp(60px, 7.5vw, 84px);
   color: black;
 }
 
 .popup-breakdown {
   background: #ddd;
-  border-radius: 10px;
-  padding: 14px 18px;
-  font-size: clamp(18px, 1.6vw, 22px); /* was 14–16px */
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: clamp(20px, 2vw, 24px);
 }
 
 .popup-breakdown h4 {
-  margin: 0 0 6px 0;
+  margin: 0 0 8px 0;
   font-weight: bold;
 }
 
 .popup-breakdown ul {
   list-style-type: disc;
-  padding-left: 22px;
+  padding-left: 24px;
   margin: 0;
 }
 
@@ -77,4 +77,9 @@
     left: 5vw !important;
     right: 5vw !important;
   }
+}
+
+.popup-header {
+  cursor: grab;
+  user-select: none;
 }
