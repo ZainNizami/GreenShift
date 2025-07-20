@@ -118,9 +118,9 @@ For each neighbourhood:
    - ↑ permit_score, ↓ affordability or ↓ green_score → likely **rising emissions**
    - ↑ green_score or affordability → likely **lowering emissions**
 3. Based on the most recent score:
-   - 🔴 Red = 0–40 → **High emissions risk**
-   - 🟡 Yellow = 41–70 → **Moderate risk**
-   - 🟢 Green = 71–100 → **Low risk**
+   - 🔴 Red = 0–69 → **High emissions risk**
+   - 🟡 Yellow = 70–79 → **Moderate risk**
+   - 🟢 Green = 80–100 → **Low risk**
 
 ⚠️ Ignore formatting errors, and just generate clear, structured summaries like this:
 
@@ -135,8 +135,8 @@ Breakdown:
 Reasoning: [Why the trend points to ↑ / ↓ / steady carbon emissions risk]  
 ---
 
-Here is the input data (up to 20 entries):
-{json.dumps(neighbourhoods_data[:20], indent=2)}
+Here is the input data (up to 10 entries):
+{json.dumps(neighbourhoods_data[:10], indent=2)}
 """
 
 
@@ -160,6 +160,7 @@ def accept_cookies():
 if __name__ == "__main__":
     # For local development, run without SSL if cert files are missing
     app.run(host='127.0.0.1', port=5000)
+
 
 
 
