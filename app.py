@@ -118,9 +118,9 @@ For each neighbourhood:
    - ↑ permit_score, ↓ affordability or ↓ green_score → likely **rising emissions**
    - ↑ green_score or affordability → likely **lowering emissions**
 3. Based on the most recent score:
-   - 🔴 Red = 0–69 → **High emissions risk**
-   - 🟡 Yellow = 70–79 → **Moderate risk**
-   - 🟢 Green = 80–100 → **Low risk**
+   - 🔴 Red = 0–40 → **High emissions risk**
+   - 🟡 Yellow = 41–70 → **Moderate risk**
+   - 🟢 Green = 71–100 → **Low risk**
 
 ⚠️ Ignore formatting errors, and just generate clear, structured summaries like this:
 
