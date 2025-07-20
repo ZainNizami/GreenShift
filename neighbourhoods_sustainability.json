@@ -1,0 +1,3280 @@
+[
+  {
+    "neighbourhood": "South Eglinton-Davisville",
+    "sustainability_score": 42.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 3,
+      "affordability_score": 9,
+      "permit_score": 58,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "North Toronto",
+    "sustainability_score": 64.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 21,
+      "affordability_score": 79,
+      "permit_score": 56,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Dovercourt Village",
+    "sustainability_score": 49.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 13,
+      "affordability_score": 14,
+      "permit_score": 70,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Junction-Wallace Emerson",
+    "sustainability_score": 47.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 10,
+      "affordability_score": 60,
+      "permit_score": 21,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Yonge-Bay Corridor",
+    "sustainability_score": 72.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 64,
+      "affordability_score": 51,
+      "permit_score": 76,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bay-Cloverhill",
+    "sustainability_score": 55.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 33,
+      "affordability_score": 0,
+      "permit_score": 87,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bendale-Glen Andrew",
+    "sustainability_score": 48.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 51,
+      "affordability_score": 12,
+      "permit_score": 29,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Downsview",
+    "sustainability_score": 89.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 82,
+      "affordability_score": 87,
+      "permit_score": 90,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Oakdale-Beverley Heights",
+    "sustainability_score": 72.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 26,
+      "affordability_score": 95,
+      "permit_score": 67,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Avondale",
+    "sustainability_score": 57.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 11,
+      "affordability_score": 96,
+      "permit_score": 23,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "East Willowdale",
+    "sustainability_score": 66.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 61,
+      "affordability_score": 52,
+      "permit_score": 53,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Yonge-Doris",
+    "sustainability_score": 70.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 84,
+      "affordability_score": 83,
+      "permit_score": 16,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Fenside-Parkwoods",
+    "sustainability_score": 66.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 83,
+      "affordability_score": 23,
+      "permit_score": 61,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Parkwoods-O'Connor Hills",
+    "sustainability_score": 74.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 77,
+      "affordability_score": 33,
+      "permit_score": 88,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "East L'Amoreaux",
+    "sustainability_score": 50.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 78,
+      "affordability_score": 3,
+      "permit_score": 21,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "L'Amoreaux West",
+    "sustainability_score": 46.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 36,
+      "affordability_score": 1,
+      "permit_score": 47,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Malvern East",
+    "sustainability_score": 60.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 51,
+      "affordability_score": 24,
+      "permit_score": 67,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Malvern West",
+    "sustainability_score": 48.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 52,
+      "affordability_score": 30,
+      "permit_score": 13,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Morningside Heights",
+    "sustainability_score": 61.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 87,
+      "affordability_score": 39,
+      "permit_score": 18,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "West Rouge",
+    "sustainability_score": 62.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 10,
+      "affordability_score": 62,
+      "permit_score": 79,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Woburn North",
+    "sustainability_score": 56.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 42,
+      "affordability_score": 72,
+      "permit_score": 12,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Golfdale-Cedarbrae-Woburn",
+    "sustainability_score": 69.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 15,
+      "affordability_score": 97,
+      "permit_score": 64,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Guildwood",
+    "sustainability_score": 74.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 89,
+      "affordability_score": 30,
+      "permit_score": 80,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Scarborough Village",
+    "sustainability_score": 44.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 11,
+      "affordability_score": 50,
+      "permit_score": 15,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Eglinton East",
+    "sustainability_score": 45.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 10,
+      "affordability_score": 37,
+      "permit_score": 34,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "West Hill",
+    "sustainability_score": 69.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 49,
+      "affordability_score": 44,
+      "permit_score": 83,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Morningside",
+    "sustainability_score": 51.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 18,
+      "affordability_score": 53,
+      "permit_score": 35,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Highland Creek",
+    "sustainability_score": 55.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 20,
+      "affordability_score": 91,
+      "permit_score": 9,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Centennial Scarborough",
+    "sustainability_score": 51.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 52,
+      "affordability_score": 32,
+      "permit_score": 23,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Milliken",
+    "sustainability_score": 73.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 33,
+      "affordability_score": 68,
+      "permit_score": 92,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Agincourt North",
+    "sustainability_score": 80.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 93,
+      "affordability_score": 56,
+      "permit_score": 74,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Agincourt South-Malvern West",
+    "sustainability_score": 73.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 39,
+      "affordability_score": 75,
+      "permit_score": 78,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Dorset Park",
+    "sustainability_score": 86.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 77,
+      "affordability_score": 73,
+      "permit_score": 95,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Ionview",
+    "sustainability_score": 44.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 31,
+      "affordability_score": 25,
+      "permit_score": 20,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Kennedy Park",
+    "sustainability_score": 58.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 57,
+      "affordability_score": 48,
+      "permit_score": 28,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Cliffcrest",
+    "sustainability_score": 63.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 51,
+      "affordability_score": 9,
+      "permit_score": 94,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Birchcliffe-Cliffside",
+    "sustainability_score": 73.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 49,
+      "affordability_score": 81,
+      "permit_score": 65,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Downtown Yonge East",
+    "sustainability_score": 62.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 53,
+      "affordability_score": 33,
+      "permit_score": 63,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Church-Wellesley",
+    "sustainability_score": 52.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 99,
+      "affordability_score": 1,
+      "permit_score": 8,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "St Lawrence-East Bayfront-The Islands",
+    "sustainability_score": 53.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 31,
+      "affordability_score": 31,
+      "permit_score": 50,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Harbourfront-CityPlace",
+    "sustainability_score": 57.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 41,
+      "affordability_score": 48,
+      "permit_score": 40,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Wellington Place",
+    "sustainability_score": 59.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 69,
+      "affordability_score": 51,
+      "permit_score": 19,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Fort York-Liberty Village",
+    "sustainability_score": 70.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 23,
+      "affordability_score": 88,
+      "permit_score": 71,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "West Queen West",
+    "sustainability_score": 75.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 64,
+      "affordability_score": 61,
+      "permit_score": 76,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humber Bay Shores",
+    "sustainability_score": 70.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 62,
+      "affordability_score": 53,
+      "permit_score": 66,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mimico-Queensway",
+    "sustainability_score": 46.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 80,
+      "affordability_score": 6,
+      "permit_score": 0,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Etobicoke City Centre",
+    "sustainability_score": 63.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 60,
+      "affordability_score": 64,
+      "permit_score": 31,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Islington",
+    "sustainability_score": 58.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 31,
+      "affordability_score": 87,
+      "permit_score": 16,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bendale South",
+    "sustainability_score": 65.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 60,
+      "affordability_score": 45,
+      "permit_score": 55,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Caledonia-Fairbank",
+    "sustainability_score": 57.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 27,
+      "affordability_score": 98,
+      "permit_score": 3,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Briar Hill-Belgravia",
+    "sustainability_score": 62.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 41,
+      "affordability_score": 38,
+      "permit_score": 72,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Oakwood Village",
+    "sustainability_score": 62.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 31,
+      "affordability_score": 42,
+      "permit_score": 78,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humewood-Cedarvale",
+    "sustainability_score": 46.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 16,
+      "affordability_score": 19,
+      "permit_score": 51,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Lawrence Park North",
+    "sustainability_score": 44.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 2,
+      "affordability_score": 65,
+      "permit_score": 11,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Lawrence Park South",
+    "sustainability_score": 86.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 89,
+      "affordability_score": 94,
+      "permit_score": 64,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Forest Hill North",
+    "sustainability_score": 65.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 92,
+      "affordability_score": 31,
+      "permit_score": 39,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Forest Hill South",
+    "sustainability_score": 70.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 5,
+      "affordability_score": 98,
+      "permit_score": 80,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Yonge-Eglinton",
+    "sustainability_score": 70.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 72,
+      "affordability_score": 86,
+      "permit_score": 25,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mount Pleasant East",
+    "sustainability_score": 71.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 2,
+      "affordability_score": 95,
+      "permit_score": 87,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rosedale-Moore Park",
+    "sustainability_score": 50.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 27,
+      "affordability_score": 65,
+      "permit_score": 10,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Yonge-St.Clair",
+    "sustainability_score": 67.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 71,
+      "affordability_score": 86,
+      "permit_score": 14,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Casa Loma",
+    "sustainability_score": 57.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 69,
+      "affordability_score": 33,
+      "permit_score": 26,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Annex",
+    "sustainability_score": 88.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 86,
+      "affordability_score": 79,
+      "permit_score": 90,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Wychwood",
+    "sustainability_score": 97.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 98,
+      "affordability_score": 91,
+      "permit_score": 99,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Corso Italia-Davenport",
+    "sustainability_score": 63.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 77,
+      "affordability_score": 58,
+      "permit_score": 19,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Weston-Pelham Park",
+    "sustainability_score": 55.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 43,
+      "affordability_score": 69,
+      "permit_score": 9,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Junction Area",
+    "sustainability_score": 80.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 61,
+      "affordability_score": 75,
+      "permit_score": 85,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Oakridge",
+    "sustainability_score": 53.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 81,
+      "affordability_score": 14,
+      "permit_score": 20,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Clairlea-Birchmount",
+    "sustainability_score": 58.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 44,
+      "affordability_score": 19,
+      "permit_score": 72,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Wexford/Maryvale",
+    "sustainability_score": 60.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 35,
+      "affordability_score": 68,
+      "permit_score": 38,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Tam O'Shanter-Sullivan",
+    "sustainability_score": 61.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 81,
+      "affordability_score": 13,
+      "permit_score": 50,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Steeles",
+    "sustainability_score": 58.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 43,
+      "affordability_score": 59,
+      "permit_score": 32,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mount Dennis",
+    "sustainability_score": 42.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 19,
+      "affordability_score": 33,
+      "permit_score": 19,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Lambton Baby Point",
+    "sustainability_score": 76.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 80,
+      "affordability_score": 44,
+      "permit_score": 81,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Weston",
+    "sustainability_score": 59.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 53,
+      "affordability_score": 41,
+      "permit_score": 43,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Beechborough-Greenbrook",
+    "sustainability_score": 59.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 94,
+      "affordability_score": 13,
+      "permit_score": 29,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rockcliffe-Smythe",
+    "sustainability_score": 54.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 8,
+      "affordability_score": 47,
+      "permit_score": 62,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Keelesdale-Eglinton West",
+    "sustainability_score": 32.75,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 3,
+      "affordability_score": 21,
+      "permit_score": 7,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Palmerston-Little Italy",
+    "sustainability_score": 56.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 21,
+      "affordability_score": 48,
+      "permit_score": 58,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "University",
+    "sustainability_score": 71.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 89,
+      "affordability_score": 39,
+      "permit_score": 56,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Kensington-Chinatown",
+    "sustainability_score": 74.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 58,
+      "affordability_score": 43,
+      "permit_score": 95,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "North St.James Town",
+    "sustainability_score": 56.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 11,
+      "affordability_score": 24,
+      "permit_score": 91,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Moss Park",
+    "sustainability_score": 91.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 85,
+      "affordability_score": 92,
+      "permit_score": 88,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Regent Park",
+    "sustainability_score": 59.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 48,
+      "affordability_score": 69,
+      "permit_score": 20,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Cabbagetown-South St.James Town",
+    "sustainability_score": 73.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 96,
+      "affordability_score": 55,
+      "permit_score": 44,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "South Riverdale",
+    "sustainability_score": 39.25,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 52,
+      "affordability_score": 2,
+      "permit_score": 3,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Blake-Jones",
+    "sustainability_score": 50.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 71,
+      "affordability_score": 16,
+      "permit_score": 14,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "North Riverdale",
+    "sustainability_score": 68.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 77,
+      "affordability_score": 39,
+      "permit_score": 59,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Playter Estates-Danforth",
+    "sustainability_score": 63.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 30,
+      "affordability_score": 79,
+      "permit_score": 43,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Danforth",
+    "sustainability_score": 70.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 40,
+      "affordability_score": 51,
+      "permit_score": 91,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Greenwood-Coxwell",
+    "sustainability_score": 54.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 11,
+      "affordability_score": 60,
+      "permit_score": 48,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Woodbine Corridor",
+    "sustainability_score": 44.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 26,
+      "affordability_score": 19,
+      "permit_score": 33,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "The Beaches",
+    "sustainability_score": 54.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 82,
+      "affordability_score": 31,
+      "permit_score": 4,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "East End-Danforth",
+    "sustainability_score": 75.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 77,
+      "affordability_score": 76,
+      "permit_score": 50,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Taylor-Massey",
+    "sustainability_score": 57.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 26,
+      "affordability_score": 66,
+      "permit_score": 37,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Woodbine-Lumsden",
+    "sustainability_score": 76.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 52,
+      "affordability_score": 83,
+      "permit_score": 69,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Danforth East York",
+    "sustainability_score": 50.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 2,
+      "affordability_score": 81,
+      "permit_score": 17,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Old East York",
+    "sustainability_score": 38.0,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 36,
+      "affordability_score": 6,
+      "permit_score": 10,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Runnymede-Bloor West Village",
+    "sustainability_score": 58.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 43,
+      "affordability_score": 43,
+      "permit_score": 49,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "High Park North",
+    "sustainability_score": 46.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 40,
+      "affordability_score": 36,
+      "permit_score": 11,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "High Park-Swansea",
+    "sustainability_score": 74.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 12,
+      "affordability_score": 92,
+      "permit_score": 93,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Roncesvalles",
+    "sustainability_score": 80.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 97,
+      "affordability_score": 40,
+      "permit_score": 84,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "South Parkdale",
+    "sustainability_score": 63.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 59,
+      "affordability_score": 4,
+      "permit_score": 90,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Little Portugal",
+    "sustainability_score": 71.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 0,
+      "affordability_score": 90,
+      "permit_score": 97,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Dufferin Grove",
+    "sustainability_score": 79.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 89,
+      "affordability_score": 33,
+      "permit_score": 95,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Trinity-Bellwoods",
+    "sustainability_score": 72.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 77,
+      "affordability_score": 62,
+      "permit_score": 52,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Don Valley Village",
+    "sustainability_score": 85.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 67,
+      "affordability_score": 81,
+      "permit_score": 93,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Pleasant View",
+    "sustainability_score": 77.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 55,
+      "affordability_score": 99,
+      "permit_score": 54,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Flemingdon Park",
+    "sustainability_score": 84.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 89,
+      "affordability_score": 53,
+      "permit_score": 94,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Victoria Village",
+    "sustainability_score": 67.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 48,
+      "affordability_score": 92,
+      "permit_score": 30,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Banbury-Don Mills",
+    "sustainability_score": 50.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 19,
+      "affordability_score": 3,
+      "permit_score": 79,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bridle Path-Sunnybrook-York Mills",
+    "sustainability_score": 52.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 42,
+      "affordability_score": 20,
+      "permit_score": 46,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "St.Andrew-Windfields",
+    "sustainability_score": 79.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 94,
+      "affordability_score": 23,
+      "permit_score": 99,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bedford Park-Nortown",
+    "sustainability_score": 69.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 18,
+      "affordability_score": 86,
+      "permit_score": 74,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Lansing-Westgate",
+    "sustainability_score": 56.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 73,
+      "affordability_score": 37,
+      "permit_score": 14,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Willowdale West",
+    "sustainability_score": 56.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 68,
+      "affordability_score": 27,
+      "permit_score": 32,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Newtonbrook West",
+    "sustainability_score": 36.0,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 2,
+      "affordability_score": 40,
+      "permit_score": 2,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Westminster-Branson",
+    "sustainability_score": 80.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 82,
+      "affordability_score": 51,
+      "permit_score": 88,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bathurst Manor",
+    "sustainability_score": 81.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 65,
+      "affordability_score": 93,
+      "permit_score": 68,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Clanton Park",
+    "sustainability_score": 71.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 83,
+      "affordability_score": 83,
+      "permit_score": 21,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Englemount-Lawrence",
+    "sustainability_score": 48.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 50,
+      "affordability_score": 26,
+      "permit_score": 17,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Yorkdale-Glen Park",
+    "sustainability_score": 73.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 13,
+      "affordability_score": 82,
+      "permit_score": 97,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Brookhaven-Amesbury",
+    "sustainability_score": 67.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 82,
+      "affordability_score": 65,
+      "permit_score": 24,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Maple Leaf",
+    "sustainability_score": 54.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 26,
+      "affordability_score": 76,
+      "permit_score": 16,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rustic",
+    "sustainability_score": 58.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 85,
+      "affordability_score": 18,
+      "permit_score": 30,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "York University Heights",
+    "sustainability_score": 74.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 71,
+      "affordability_score": 67,
+      "permit_score": 59,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Glenfield-Jane Heights",
+    "sustainability_score": 76.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 62,
+      "affordability_score": 88,
+      "permit_score": 57,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Broadview North",
+    "sustainability_score": 70.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 91,
+      "affordability_score": 17,
+      "permit_score": 72,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Leaside-Bennington",
+    "sustainability_score": 54.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 44,
+      "affordability_score": 40,
+      "permit_score": 32,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Thorncliffe Park",
+    "sustainability_score": 42.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 36,
+      "affordability_score": 5,
+      "permit_score": 29,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "O'Connor-Parkview",
+    "sustainability_score": 67.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 94,
+      "affordability_score": 29,
+      "permit_score": 48,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Henry Farm",
+    "sustainability_score": 92.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 90,
+      "affordability_score": 88,
+      "permit_score": 90,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bayview Village",
+    "sustainability_score": 60.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 9,
+      "affordability_score": 46,
+      "permit_score": 86,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Newtonbrook East",
+    "sustainability_score": 64.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 71,
+      "affordability_score": 2,
+      "permit_score": 85,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bayview Woods-Steeles",
+    "sustainability_score": 47.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 56,
+      "affordability_score": 25,
+      "permit_score": 8,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Hillcrest Village",
+    "sustainability_score": 70.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 93,
+      "affordability_score": 25,
+      "permit_score": 64,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Alderwood",
+    "sustainability_score": 55.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 56,
+      "affordability_score": 33,
+      "permit_score": 33,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Long Branch",
+    "sustainability_score": 64.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 48,
+      "affordability_score": 50,
+      "permit_score": 58,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "New Toronto",
+    "sustainability_score": 40.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 16,
+      "affordability_score": 32,
+      "permit_score": 13,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Stonegate-Queensway",
+    "sustainability_score": 46.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 5,
+      "affordability_score": 68,
+      "permit_score": 11,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Kingsway South",
+    "sustainability_score": 58.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 39,
+      "affordability_score": 70,
+      "permit_score": 23,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Etobicoke West Mall",
+    "sustainability_score": 61.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 54,
+      "affordability_score": 9,
+      "permit_score": 82,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Markland Wood",
+    "sustainability_score": 47.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 2,
+      "affordability_score": 14,
+      "permit_score": 74,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Eringate-Centennial-West Deane",
+    "sustainability_score": 71.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 74,
+      "affordability_score": 38,
+      "permit_score": 74,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Princess-Rosethorn",
+    "sustainability_score": 77.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 59,
+      "affordability_score": 96,
+      "permit_score": 53,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Edenbridge-Humber Valley",
+    "sustainability_score": 75.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 43,
+      "affordability_score": 78,
+      "permit_score": 81,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humber Heights-Westmount",
+    "sustainability_score": 41.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 11,
+      "affordability_score": 28,
+      "permit_score": 26,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Willowridge-Martingrove-Richview",
+    "sustainability_score": 62.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 39,
+      "affordability_score": 95,
+      "permit_score": 17,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Kingsview Village-The Westway",
+    "sustainability_score": 42.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 38,
+      "affordability_score": 25,
+      "permit_score": 8,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Elms-Old Rexdale",
+    "sustainability_score": 44.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 18,
+      "affordability_score": 1,
+      "permit_score": 59,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rexdale-Kipling",
+    "sustainability_score": 71.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 79,
+      "affordability_score": 51,
+      "permit_score": 55,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Thistletown-Beaumond Heights",
+    "sustainability_score": 68.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 32,
+      "affordability_score": 87,
+      "permit_score": 56,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mount Olive-Silverstone-Jamestown",
+    "sustainability_score": 37.0,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 24,
+      "affordability_score": 12,
+      "permit_score": 12,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "West Humber-Clairville",
+    "sustainability_score": 77.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 34,
+      "affordability_score": 88,
+      "permit_score": 87,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Black Creek",
+    "sustainability_score": 63.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 18,
+      "affordability_score": 65,
+      "permit_score": 69,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Pelmo Park-Humberlea",
+    "sustainability_score": 52.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 33,
+      "affordability_score": 0,
+      "permit_score": 77,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humbermede",
+    "sustainability_score": 54.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 46,
+      "affordability_score": 13,
+      "permit_score": 59,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humber Summit",
+    "sustainability_score": 58.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 83,
+      "affordability_score": 30,
+      "permit_score": 20,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Brookhaven-Amesbury (30)",
+    "sustainability_score": 70.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 87,
+      "affordability_score": 4,
+      "permit_score": 90,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humewood-Cedarvale (106)",
+    "sustainability_score": 44.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 23,
+      "affordability_score": 27,
+      "permit_score": 29,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Weston-Pelham Park (91)",
+    "sustainability_score": 71.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 63,
+      "affordability_score": 83,
+      "permit_score": 40,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Hillcrest Village (48)",
+    "sustainability_score": 65.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 97,
+      "affordability_score": 21,
+      "permit_score": 45,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Agincourt North (129)",
+    "sustainability_score": 75.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 91,
+      "affordability_score": 12,
+      "permit_score": 99,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Yonge-St.Clair (97)",
+    "sustainability_score": 60.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 83,
+      "affordability_score": 34,
+      "permit_score": 23,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Yonge-Eglinton (100)",
+    "sustainability_score": 62.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 89,
+      "affordability_score": 27,
+      "permit_score": 34,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Edenbridge-Humber Valley (9)",
+    "sustainability_score": 33.5,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 5,
+      "affordability_score": 1,
+      "permit_score": 28,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rexdale-Kipling (4)",
+    "sustainability_score": 71.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 97,
+      "affordability_score": 7,
+      "permit_score": 83,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Willowdale East (51)",
+    "sustainability_score": 73.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 75,
+      "affordability_score": 95,
+      "permit_score": 25,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Flemingdon Park (44)",
+    "sustainability_score": 59.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 7,
+      "affordability_score": 94,
+      "permit_score": 38,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Princess-Rosethorn (10)",
+    "sustainability_score": 55.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 8,
+      "affordability_score": 46,
+      "permit_score": 69,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Pleasant View (46)",
+    "sustainability_score": 45.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 16,
+      "affordability_score": 30,
+      "permit_score": 34,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Dovercourt-Wallace Emerson-Junction (93)",
+    "sustainability_score": 50.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 63,
+      "affordability_score": 34,
+      "permit_score": 4,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Oakridge (121)",
+    "sustainability_score": 50.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 6,
+      "affordability_score": 30,
+      "permit_score": 64,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Keelesdale-Eglinton West (110)",
+    "sustainability_score": 74.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 5,
+      "affordability_score": 99,
+      "permit_score": 92,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Briar Hill-Belgravia (108)",
+    "sustainability_score": 60.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 5,
+      "affordability_score": 60,
+      "permit_score": 76,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mount Pleasant West (104)",
+    "sustainability_score": 55.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 20,
+      "affordability_score": 9,
+      "permit_score": 94,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Caledonia-Fairbank (109)",
+    "sustainability_score": 53.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 9,
+      "affordability_score": 22,
+      "permit_score": 84,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Beechborough-Greenbrook (112)",
+    "sustainability_score": 66.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 66,
+      "affordability_score": 82,
+      "permit_score": 19,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Danforth East York (59)",
+    "sustainability_score": 57.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 33,
+      "affordability_score": 41,
+      "permit_score": 55,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mount Pleasant East (99)",
+    "sustainability_score": 62.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 91,
+      "affordability_score": 10,
+      "permit_score": 48,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Moss Park (73)",
+    "sustainability_score": 55.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 98,
+      "affordability_score": 25,
+      "permit_score": 0,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Junction Area (90)",
+    "sustainability_score": 65.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 56,
+      "affordability_score": 59,
+      "permit_score": 47,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Little Portugal (84)",
+    "sustainability_score": 59.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 67,
+      "affordability_score": 68,
+      "permit_score": 4,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rosedale-Moore Park (98)",
+    "sustainability_score": 52.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 49,
+      "affordability_score": 1,
+      "permit_score": 60,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Oakwood Village (107)",
+    "sustainability_score": 80.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 98,
+      "affordability_score": 43,
+      "permit_score": 82,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "O'Connor-Parkview (54)",
+    "sustainability_score": 63.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 51,
+      "affordability_score": 75,
+      "permit_score": 29,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Dorset Park (126)",
+    "sustainability_score": 79.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 68,
+      "affordability_score": 57,
+      "permit_score": 92,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Newtonbrook West (36)",
+    "sustainability_score": 64.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 48,
+      "affordability_score": 82,
+      "permit_score": 29,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Cabbagetown-South St.James Town (71)",
+    "sustainability_score": 66.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 50,
+      "affordability_score": 32,
+      "permit_score": 82,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Black Creek (24)",
+    "sustainability_score": 59.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 17,
+      "affordability_score": 63,
+      "permit_score": 59,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Playter Estates-Danforth (67)",
+    "sustainability_score": 64.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 98,
+      "affordability_score": 47,
+      "permit_score": 13,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Broadview North (57)",
+    "sustainability_score": 72.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 95,
+      "affordability_score": 68,
+      "permit_score": 26,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Kingsway South (15)",
+    "sustainability_score": 59.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 12,
+      "affordability_score": 53,
+      "permit_score": 73,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Etobicoke West Mall (13)",
+    "sustainability_score": 92.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 89,
+      "affordability_score": 99,
+      "permit_score": 83,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "North Riverdale (68)",
+    "sustainability_score": 43.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 8,
+      "affordability_score": 39,
+      "permit_score": 26,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Ionview (125)",
+    "sustainability_score": 76.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 53,
+      "affordability_score": 59,
+      "permit_score": 95,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Don Valley Village (47)",
+    "sustainability_score": 40.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 10,
+      "affordability_score": 31,
+      "permit_score": 20,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Woodbine-Lumsden (60)",
+    "sustainability_score": 64.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 59,
+      "affordability_score": 3,
+      "permit_score": 95,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Casa Loma (96)",
+    "sustainability_score": 48.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 18,
+      "affordability_score": 43,
+      "permit_score": 33,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Kennedy Park (124)",
+    "sustainability_score": 39.0,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 22,
+      "affordability_score": 30,
+      "permit_score": 4,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "North St.James Town (74)",
+    "sustainability_score": 52.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 12,
+      "affordability_score": 3,
+      "permit_score": 94,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bay Street Corridor (76)",
+    "sustainability_score": 68.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 92,
+      "affordability_score": 11,
+      "permit_score": 71,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Roncesvalles (86)",
+    "sustainability_score": 60.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 14,
+      "affordability_score": 32,
+      "permit_score": 95,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Cliffcrest (123)",
+    "sustainability_score": 67.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 58,
+      "affordability_score": 60,
+      "permit_score": 52,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Clairlea-Birchmount (120)",
+    "sustainability_score": 67.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 75,
+      "affordability_score": 61,
+      "permit_score": 34,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Church-Yonge Corridor (75)",
+    "sustainability_score": 36.0,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 19,
+      "affordability_score": 13,
+      "permit_score": 12,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Highland Creek (134)",
+    "sustainability_score": 53.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 20,
+      "affordability_score": 38,
+      "permit_score": 54,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "High Park-Swansea (87)",
+    "sustainability_score": 62.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 93,
+      "affordability_score": 56,
+      "permit_score": 2,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Newtonbrook East (50)",
+    "sustainability_score": 81.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 98,
+      "affordability_score": 58,
+      "permit_score": 71,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Willowridge-Martingrove-Richview (7)",
+    "sustainability_score": 64.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 22,
+      "affordability_score": 78,
+      "permit_score": 58,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Glenfield-Jane Heights (25)",
+    "sustainability_score": 76.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 95,
+      "affordability_score": 32,
+      "permit_score": 78,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Weston (113)",
+    "sustainability_score": 38.75,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 38,
+      "affordability_score": 8,
+      "permit_score": 9,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Eringate-Centennial-West Deane (11)",
+    "sustainability_score": 78.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 72,
+      "affordability_score": 65,
+      "permit_score": 76,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Englemount-Lawrence (32)",
+    "sustainability_score": 59.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 40,
+      "affordability_score": 11,
+      "permit_score": 87,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Old East York (58)",
+    "sustainability_score": 71.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 52,
+      "affordability_score": 97,
+      "permit_score": 37,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bathurst Manor (34)",
+    "sustainability_score": 74.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 49,
+      "affordability_score": 89,
+      "permit_score": 60,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Banbury-Don Mills (42)",
+    "sustainability_score": 71.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 40,
+      "affordability_score": 89,
+      "permit_score": 56,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "L'Amoreaux (117)",
+    "sustainability_score": 77.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 73,
+      "affordability_score": 93,
+      "permit_score": 43,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Morningside (135)",
+    "sustainability_score": 52.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 26,
+      "affordability_score": 32,
+      "permit_score": 51,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mimico (includes Humber Bay Shores) (17)",
+    "sustainability_score": 75.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 93,
+      "affordability_score": 74,
+      "permit_score": 33,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Maple Leaf (29)",
+    "sustainability_score": 71.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 57,
+      "affordability_score": 33,
+      "permit_score": 96,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Lawrence Park North (105)",
+    "sustainability_score": 58.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 86,
+      "affordability_score": 37,
+      "permit_score": 10,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Dufferin Grove (83)",
+    "sustainability_score": 81.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 78,
+      "affordability_score": 73,
+      "permit_score": 75,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Lawrence Park South (103)",
+    "sustainability_score": 69.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 80,
+      "affordability_score": 33,
+      "permit_score": 64,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bayview Village (52)",
+    "sustainability_score": 59.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 9,
+      "affordability_score": 66,
+      "permit_score": 62,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Lambton Baby Point (114)",
+    "sustainability_score": 61.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 44,
+      "affordability_score": 22,
+      "permit_score": 81,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Palmerston-Little Italy (80)",
+    "sustainability_score": 59.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 15,
+      "affordability_score": 82,
+      "permit_score": 41,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "New Toronto (18)",
+    "sustainability_score": 64.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 77,
+      "affordability_score": 33,
+      "permit_score": 49,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Niagara (82)",
+    "sustainability_score": 72.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 74,
+      "affordability_score": 22,
+      "permit_score": 92,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bedford Park-Nortown (39)",
+    "sustainability_score": 54.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 16,
+      "affordability_score": 44,
+      "permit_score": 59,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Birchcliffe-Cliffside (122)",
+    "sustainability_score": 59.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 9,
+      "affordability_score": 35,
+      "permit_score": 92,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bendale (127)",
+    "sustainability_score": 49.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 67,
+      "affordability_score": 9,
+      "permit_score": 23,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Regent Park (72)",
+    "sustainability_score": 52.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 3,
+      "affordability_score": 97,
+      "permit_score": 9,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Parkwoods-Donalda (45)",
+    "sustainability_score": 79.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 93,
+      "affordability_score": 78,
+      "permit_score": 46,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Kensington-Chinatown (78)",
+    "sustainability_score": 74.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 38,
+      "affordability_score": 61,
+      "permit_score": 97,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Leaside-Bennington (56)",
+    "sustainability_score": 44.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 53,
+      "affordability_score": 14,
+      "permit_score": 9,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Wychwood (94)",
+    "sustainability_score": 54.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 38,
+      "affordability_score": 63,
+      "permit_score": 16,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Henry Farm (53)",
+    "sustainability_score": 83.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 65,
+      "affordability_score": 95,
+      "permit_score": 73,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Corso Italia-Davenport (92)",
+    "sustainability_score": 93.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 88,
+      "affordability_score": 90,
+      "permit_score": 97,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Thistletown-Beaumond Heights (3)",
+    "sustainability_score": 59.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 26,
+      "affordability_score": 13,
+      "permit_score": 97,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "The Beaches (63)",
+    "sustainability_score": 56.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 0,
+      "affordability_score": 73,
+      "permit_score": 54,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Tam O'Shanter-Sullivan (118)",
+    "sustainability_score": 63.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 92,
+      "affordability_score": 1,
+      "permit_score": 59,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Stonegate-Queensway (16)",
+    "sustainability_score": 50.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 4,
+      "affordability_score": 32,
+      "permit_score": 66,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Guildwood (140)",
+    "sustainability_score": 66.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 30,
+      "affordability_score": 94,
+      "permit_score": 40,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Blake-Jones (69)",
+    "sustainability_score": 76.0,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 76,
+      "affordability_score": 56,
+      "permit_score": 72,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Islington-City Centre West (14)",
+    "sustainability_score": 41.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 34,
+      "affordability_score": 18,
+      "permit_score": 14,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rouge (131)",
+    "sustainability_score": 69.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 68,
+      "affordability_score": 72,
+      "permit_score": 39,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Markland Wood (12)",
+    "sustainability_score": 45.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 17,
+      "affordability_score": 39,
+      "permit_score": 27,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Malvern (132)",
+    "sustainability_score": 60.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 75,
+      "affordability_score": 14,
+      "permit_score": 53,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Long Branch (19)",
+    "sustainability_score": 73.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 45,
+      "affordability_score": 69,
+      "permit_score": 80,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Danforth (66)",
+    "sustainability_score": 67.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 68,
+      "affordability_score": 65,
+      "permit_score": 37,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Greenwood-Coxwell (65)",
+    "sustainability_score": 61.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 83,
+      "affordability_score": 29,
+      "permit_score": 35,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Elms-Old Rexdale (5)",
+    "sustainability_score": 41.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 12,
+      "affordability_score": 53,
+      "permit_score": 2,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Clanton Park (33)",
+    "sustainability_score": 80.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 55,
+      "affordability_score": 70,
+      "permit_score": 97,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Runnymede-Bloor West Village (89)",
+    "sustainability_score": 39.75,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 0,
+      "affordability_score": 21,
+      "permit_score": 38,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "East End-Danforth (62)",
+    "sustainability_score": 62.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 9,
+      "affordability_score": 76,
+      "permit_score": 64,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Westminster-Branson (35)",
+    "sustainability_score": 60.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 52,
+      "affordability_score": 25,
+      "permit_score": 66,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "West Humber-Clairville (1)",
+    "sustainability_score": 47.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 28,
+      "affordability_score": 32,
+      "permit_score": 28,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bridle Path-Sunnybrook-York Mills (41)",
+    "sustainability_score": 65.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 60,
+      "affordability_score": 92,
+      "permit_score": 11,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rockcliffe-Smythe (111)",
+    "sustainability_score": 50.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 75,
+      "affordability_score": 5,
+      "permit_score": 21,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "University (79)",
+    "sustainability_score": 54.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 8,
+      "affordability_score": 39,
+      "permit_score": 69,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "West Hill (136)",
+    "sustainability_score": 56.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 74,
+      "affordability_score": 11,
+      "permit_score": 41,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Rustic (28)",
+    "sustainability_score": 58.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 64,
+      "affordability_score": 47,
+      "permit_score": 21,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "High Park North (88)",
+    "sustainability_score": 41.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 2,
+      "affordability_score": 12,
+      "permit_score": 51,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Taylor-Massey (61)",
+    "sustainability_score": 59.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 53,
+      "affordability_score": 10,
+      "permit_score": 74,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Victoria Village (43)",
+    "sustainability_score": 68.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 68,
+      "affordability_score": 90,
+      "permit_score": 15,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "St.Andrew-Windfields (40)",
+    "sustainability_score": 67.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 5,
+      "affordability_score": 65,
+      "permit_score": 98,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "South Riverdale (70)",
+    "sustainability_score": 87.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 81,
+      "affordability_score": 99,
+      "permit_score": 70,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "South Parkdale (85)",
+    "sustainability_score": 74.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 15,
+      "affordability_score": 85,
+      "permit_score": 99,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Scarborough Village (139)",
+    "sustainability_score": 66.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 51,
+      "affordability_score": 38,
+      "permit_score": 77,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Yorkdale-Glen Park (31)",
+    "sustainability_score": 81.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 97,
+      "affordability_score": 33,
+      "permit_score": 97,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Pelmo Park-Humberlea (23)",
+    "sustainability_score": 62.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 29,
+      "affordability_score": 91,
+      "permit_score": 30,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Centennial Scarborough (133)",
+    "sustainability_score": 60.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 36,
+      "affordability_score": 23,
+      "permit_score": 82,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humbermede (22)",
+    "sustainability_score": 74.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 60,
+      "affordability_score": 44,
+      "permit_score": 95,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Willowdale West (37)",
+    "sustainability_score": 34.75,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 12,
+      "affordability_score": 22,
+      "permit_score": 5,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Trinity-Bellwoods (81)",
+    "sustainability_score": 71.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 75,
+      "affordability_score": 88,
+      "permit_score": 24,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Thorncliffe Park (55)",
+    "sustainability_score": 59.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 64,
+      "affordability_score": 13,
+      "permit_score": 59,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Eglinton East (138)",
+    "sustainability_score": 60.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 78,
+      "affordability_score": 45,
+      "permit_score": 18,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Lansing-Westgate (38)",
+    "sustainability_score": 52.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 28,
+      "affordability_score": 66,
+      "permit_score": 16,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "York University Heights (27)",
+    "sustainability_score": 53.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 24,
+      "affordability_score": 37,
+      "permit_score": 54,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Waterfront Communities-The Island (77)",
+    "sustainability_score": 60.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 34,
+      "affordability_score": 56,
+      "permit_score": 51,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mount Dennis (115)",
+    "sustainability_score": 77.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 54,
+      "affordability_score": 63,
+      "permit_score": 93,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Bayview Woods-Steeles (49)",
+    "sustainability_score": 39.75,
+    "risk_level": "High",
+    "breakdown": {
+      "green_score": 2,
+      "affordability_score": 7,
+      "permit_score": 50,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Woodbine Corridor (64)",
+    "sustainability_score": 80.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 50,
+      "affordability_score": 75,
+      "permit_score": 97,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Milliken (130)",
+    "sustainability_score": 46.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 36,
+      "affordability_score": 31,
+      "permit_score": 19,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Woburn (137)",
+    "sustainability_score": 54.5,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 22,
+      "affordability_score": 14,
+      "permit_score": 82,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Steeles (116)",
+    "sustainability_score": 64.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 84,
+      "affordability_score": 2,
+      "permit_score": 70,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Annex (95)",
+    "sustainability_score": 86.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 93,
+      "affordability_score": 62,
+      "permit_score": 92,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Forest Hill South (101)",
+    "sustainability_score": 45.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 30,
+      "affordability_score": 19,
+      "permit_score": 34,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Downsview-Roding-CFB (26)",
+    "sustainability_score": 81.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 80,
+      "affordability_score": 72,
+      "permit_score": 74,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Kingsview Village-The Westway (6)",
+    "sustainability_score": 78.25,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 73,
+      "affordability_score": 92,
+      "permit_score": 48,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Mount Olive-Silverstone-Jamestown (2)",
+    "sustainability_score": 87.5,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 69,
+      "affordability_score": 99,
+      "permit_score": 82,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Wexford/Maryvale (119)",
+    "sustainability_score": 67.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 27,
+      "affordability_score": 69,
+      "permit_score": 72,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Alderwood (20)",
+    "sustainability_score": 69.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 65,
+      "affordability_score": 58,
+      "permit_score": 53,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humber Summit (21)",
+    "sustainability_score": 57.25,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 55,
+      "affordability_score": 42,
+      "permit_score": 32,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Forest Hill North (102)",
+    "sustainability_score": 72.75,
+    "risk_level": "Low",
+    "breakdown": {
+      "green_score": 53,
+      "affordability_score": 88,
+      "permit_score": 50,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Humber Heights-Westmount (8)",
+    "sustainability_score": 47.75,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 17,
+      "affordability_score": 63,
+      "permit_score": 11,
+      "completeness_score": 100
+    }
+  },
+  {
+    "neighbourhood": "Agincourt South-Malvern West (128)",
+    "sustainability_score": 41.0,
+    "risk_level": "Medium",
+    "breakdown": {
+      "green_score": 14,
+      "affordability_score": 32,
+      "permit_score": 18,
+      "completeness_score": 100
+    }
+  }
+]
