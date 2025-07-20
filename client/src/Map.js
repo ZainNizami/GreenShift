@@ -108,6 +108,11 @@ function Map({ onFeatureClick, onBackgroundClick }) {
 
     // ✅ Click interaction
     map.on("click", (e) => {
+      console.log("🌍 MAP CLICKED");
+
+      e.originalEvent?.preventDefault?.();
+      e.preventDefault?.();
+
       const features = map.queryRenderedFeatures(e.point, {
         layers: ["grid-layer"],
       });
@@ -115,6 +120,8 @@ function Map({ onFeatureClick, onBackgroundClick }) {
       if (features.length > 0) {
         const clickedFeature = features[0];
         const { x, y } = e.point;
+
+        console.log("✅ Feature clicked!", clickedFeature);
 
         onFeatureClick(
           {
@@ -131,7 +138,7 @@ function Map({ onFeatureClick, onBackgroundClick }) {
     });
 
     return () => map.remove();
-  }, [onFeatureClick, onBackgroundClick]);
+  }, []);
 
   return (
     <div className="map-placeholder" ref={mapContainerRef}>
