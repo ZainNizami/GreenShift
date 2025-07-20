@@ -4,6 +4,14 @@ import './legend.css';
 const Legend = () => {
   const [open, setOpen] = useState(true);
 
+  // Define dynamic sizing relative to viewport width (vw)
+  const boxSize = '2.4vw'; // Adjust this to scale
+  const minSize = '18px';  // Fallback minimum size
+  const boxStyle = {
+    width: `max(${boxSize}, ${minSize})`,
+    height: `max(${boxSize}, ${minSize})`,
+  };
+
   return (
     <div className={`custom-legend ${open ? 'open' : 'closed'}`}>
       {open ? (
@@ -13,16 +21,22 @@ const Legend = () => {
           </div>
 
           <div className="legend-row">
-            <span className="legend-color red" /> 
-            <span className="legend-label">Hi Risk<br /><small>(0% - 40%)</small></span>
+            <span className="legend-color red" style={boxStyle} />
+            <span className="legend-label">
+              Hi Risk<br /><small>(0% - 40%)</small>
+            </span>
           </div>
           <div className="legend-row">
-            <span className="legend-color yellow" />
-            <span className="legend-label">Medium Risk<br /><small>(41% - 70%)</small></span>
+            <span className="legend-color yellow" style={boxStyle} />
+            <span className="legend-label">
+              Medium Risk<br /><small>(41% - 70%)</small>
+            </span>
           </div>
           <div className="legend-row">
-            <span className="legend-color green" />
-            <span className="legend-label">Low Risk<br /><small>(71% - 100%)</small></span>
+            <span className="legend-color green" style={boxStyle} />
+            <span className="legend-label">
+              Low Risk<br /><small>(71% - 100%)</small>
+            </span>
           </div>
 
           <hr className="legend-divider" />
