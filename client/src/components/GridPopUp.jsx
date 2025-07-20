@@ -62,7 +62,7 @@ const GridPopUp = ({ data, position, onClose }) => {
     >
       <div className="popup-header" onMouseDown={startDrag}>
         <span className="popup-title">{data.neighbourhood}</span>
-        <button className="popup-close" onClick={onClose}>×</button>
+        <button type="button" className="popup-close" onClick={onClose}>×</button>
       </div>
 
       <div className="score-section">

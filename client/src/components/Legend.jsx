@@ -49,7 +49,7 @@ const Legend = () => {
           </div>
         </div>
       ) : (
-        <button className="legend-toggle" onClick={() => setOpen(true)}>
+        <button type="button" className="legend-toggle" onClick={() => setOpen(true)}>
           LEGEND <span className="legend-arrow">▼</span>
         </button>
       )}
