@@ -37,6 +37,10 @@ json_files = [
     "filtered_neighbourhoods_resource_0.json",
     "filtered_neighbourhoods_resource_1.json",
     "neighbourhoods_sustainability.json",
+    "income_data.json",
+    "sustainability_data.json",
+    "Neighbourhoods - 4326.json",
+
     # Add more if needed
 ]
 
@@ -121,8 +125,7 @@ For each neighbourhood:
 
 ---
 Neighbourhood: [Name]  
-Sustainability Score: [Most recent score]  
-Trend: [Increasing / Decreasing / Stable]  
+Sustainability Score: [Most recent score]   
 Color Label: [🔴 Red / 🟡 Yellow / 🟢 Green]  
 Breakdown:
 - Green Score: [Latest green_score]  
@@ -131,8 +134,8 @@ Breakdown:
 Reasoning: [Why the trend points to ↑ / ↓ / steady carbon emissions risk]  
 ---
 
-Here is the input data (up to 10 entries):
-{json.dumps(neighbourhoods_data[:10], indent=2)}
+Here is the input data (up to 20 entries):
+{json.dumps(neighbourhoods_data[:20], indent=2)}
 """
 
 
@@ -156,4 +159,6 @@ def accept_cookies():
 if __name__ == "__main__":
     # For local development, run without SSL if cert files are missing
     app.run(host='127.0.0.1', port=5000)
+
+
 
