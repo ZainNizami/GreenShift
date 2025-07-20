@@ -1,58 +1,44 @@
-import React, { useState } from 'react';
-import './legend.css';
+import React from "react";
 
 const Legend = () => {
-  const [open, setOpen] = useState(true);
-
-  // Define dynamic sizing relative to viewport width (vw)
-  const boxSize = '2.4vw'; // Adjust this to scale
-  const minSize = '18px';  // Fallback minimum size
-  const boxStyle = {
-    width: `max(${boxSize}, ${minSize})`,
-    height: `max(${boxSize}, ${minSize})`,
-  };
+  const levels = [
+    { color: "#1a9850", label: "80+ (Very High)" },
+    { color: "#91cf60", label: "65–79 (High)" },
+    { color: "#fee08b", label: "50–64 (Medium)" },
+    { color: "#fc8d59", label: "35–49 (Low)" },
+    { color: "#d73027", label: "<  (Very Low)" },
+    { color: "#cccccc", label: "N/A" },
+  ];
 
   return (
-    <div className={`custom-legend ${open ? 'open' : 'closed'}`}>
-      {open ? (
-        <div className="legend-card">
-          <div className="legend-header" onClick={() => setOpen(false)}>
-            LEGEND <span className="legend-arrow">▲</span>
-          </div>
-
-          <div className="legend-row">
-            <span className="legend-color red" style={boxStyle} />
-            <span className="legend-label">
-              Hi Risk<br /><small>(0% - 40%)</small>
-            </span>
-          </div>
-          <div className="legend-row">
-            <span className="legend-color yellow" style={boxStyle} />
-            <span className="legend-label">
-              Medium Risk<br /><small>(41% - 70%)</small>
-            </span>
-          </div>
-          <div className="legend-row">
-            <span className="legend-color green" style={boxStyle} />
-            <span className="legend-label">
-              Low Risk<br /><small>(71% - 100%)</small>
-            </span>
-          </div>
-
-          <hr className="legend-divider" />
-          <div className="legend-footer">
-            <em>
-              Risks in gentrification of each<br />
-              neighborhood in Toronto<br />
-              calculated using AI Agents
-            </em>
-          </div>
+    <div
+      style={{
+        position: "absolute",
+        top: 12,
+        left: 12,
+        background: "white",
+        padding: "10px",
+        borderRadius: "8px",
+        boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
+        zIndex: 1000,
+        fontSize: "14px",
+      }}
+    >
+      <strong style={{ display: "block", marginBottom: "6px" }}>Risk of Gentrification</strong>
+      {levels.map((item) => (
+        <div key={item.label} style={{ display: "flex", alignItems: "center", marginBottom: "4px" }}>
+          <div
+            style={{
+              width: 16,
+              height: 16,
+              backgroundColor: item.color,
+              marginRight: 8,
+              border: "1px solid #999",
+            }}
+          />
+          <span>{item.label}</span>
         </div>
-      ) : (
-        <button type="button" className="legend-toggle" onClick={() => setOpen(true)}>
-          LEGEND <span className="legend-arrow">▼</span>
-        </button>
-      )}
+      ))}
     </div>
   );
 };

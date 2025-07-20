@@ -1,52 +1,21 @@
-import React, { useEffect, useRef, useState } from "react";
+// components/GridPopUp.jsx
+import React, { useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
-import "./GridPopUp.css";
+import "./GridPopUp.css"; // Style it as needed
 
 const GridPopUp = ({ data, position, onClose }) => {
   const popupRef = useRef(null);
-  const [coords, setCoords] = useState({ x: 0, y: 0 });
-  const isDragging = useRef(false);
-  const offset = useRef({ x: 0, y: 0 });
 
   useEffect(() => {
-    if (!popupRef.current || !position) return;
-
-    // Initial position offset from cursor click
-    setCoords({ x: position.x + 12, y: position.y + 12 });
+    if (!popupRef.current) return;
+    const popup = popupRef.current;
+    popup.style.left = `${position.x + 12}px`;
+    popup.style.top = `${position.y + 12}px`;
   }, [position]);
 
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      if (!isDragging.current) return;
-      setCoords({
-        x: e.clientX - offset.current.x,
-        y: e.clientY - offset.current.y,
-      });
-    };
+  if (!data || !position) return null;
 
-    const handleMouseUp = () => {
-      isDragging.current = false;
-    };
-
-    document.addEventListener("mousemove", handleMouseMove);
-    document.addEventListener("mouseup", handleMouseUp);
-    return () => {
-      document.removeEventListener("mousemove", handleMouseMove);
-      document.removeEventListener("mouseup", handleMouseUp);
-    };
-  }, []);
-
-  const startDrag = (e) => {
-    if (!popupRef.current) return;
-    isDragging.current = true;
-    const rect = popupRef.current.getBoundingClientRect();
-    offset.current = {
-      x: e.clientX - rect.left,
-      y: e.clientY - rect.top,
-    };
-  };
-
-  if (!data) return null;
+  const breakdown = data.breakdown || {};
 
   return ReactDOM.createPortal(
     <div
@@ -54,32 +23,24 @@ const GridPopUp = ({ data, position, onClose }) => {
       className="custom-popup"
       style={{
         position: "fixed",
-        left: coords.x,
-        top: coords.y,
         zIndex: 1000,
-        cursor: isDragging.current ? "grabbing" : "default",
       }}
     >
-      <div className="popup-header" onMouseDown={startDrag}>
-        <span className="popup-title">{data.neighbourhood}</span>
-        <button type="button" className="popup-close" onClick={onClose}>×</button>
+      <div className="popup-header">
+        <span className="popup-title">{data.neighbourhood || "UNKNOWN"}</span>
+        <button onClick={onClose}>×</button>
       </div>
-
-      <div className="score-section">
-        <span className="score-label">Sustainability Score</span>
-        <div className="score-number">
-          {Math.round(data.sustainability_score)}
+      <div className="popup-body">
+        <p><strong>Sustainability Score</strong>: {data.sustainability_score ?? 0}</p>
+        <div>
+          <strong>Breakdown</strong>
+          <ul>
+            <li>Green Score = {breakdown.green_score ?? "N/A"}</li>
+            <li>Affordability Score = {breakdown.affordability_score ?? "N/A"}</li>
+            <li>Permit Score = {breakdown.permit_score ?? "N/A"}</li>
+            <li>Completeness Score = {breakdown.completeness_score ?? "N/A"}</li>
+          </ul>
         </div>
-      </div>
-
-      <div className="popup-breakdown">
-        <h4>Breakdown</h4>
-        <ul>
-          <li>Green Score = {data.breakdown?.green_score ?? "N/A"}</li>
-          <li>Affordability Score = {data.breakdown?.affordability_score ?? "N/A"}</li>
-          <li>Permit Score = {data.breakdown?.permit_score ?? "N/A"}</li>
-          <li>Completeness Score = {data.breakdown?.completeness_score ?? "N/A"}</li>
-        </ul>
       </div>
     </div>,
     document.body
