@@ -1,38 +1,93 @@
-/* legend.css */
+/* Updated Figma-style Legend */
 
-.legend-container {
+.custom-legend {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 15px 18px;
-  border-radius: 8px;
-  color: white;
-  font-size: 14px;
-  max-width: 240px;
-  z-index: 1;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  font-family: 'Arial', sans-serif;
 }
 
-.legend-container div {
-  margin-bottom: 6px;
+.legend-card {
+  background: linear-gradient(to bottom, #143b8c, #6c8be9);
+  padding: 24px;
+  width: 250px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.legend-header {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.legend-arrow {
+  font-size: 18px;
+  color: #ccc;
+  margin-left: 8px;
+}
+
+.legend-row {
   display: flex;
   align-items: center;
+  margin-bottom: 12px;
 }
 
 .legend-color {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin-right: 8px;
-  border-radius: 2px;
-  vertical-align: middle;
-  margin-top: -2px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 
-.legend-description {
-  margin-top: 8px;
-  font-size: 12px;
-  color: #ddd;
+.legend-color.red {
+  background-color: red;
+}
+
+.legend-color.yellow {
+  background-color: yellow;
+}
+
+.legend-color.green {
+  background-color: lime;
+}
+
+.legend-label {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.legend-label small {
+  font-size: 14px;
+  display: block;
+}
+
+.legend-divider {
+  margin: 12px 0;
+  border: none;
+  border-top: 1px solid white;
+}
+
+.legend-footer {
+  font-size: 13px;
+  color: #eee;
   line-height: 1.3;
+}
+
+.legend-toggle {
+  background: linear-gradient(to bottom, #143b8c, #6c8be9);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }

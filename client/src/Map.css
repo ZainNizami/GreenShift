@@ -1,27 +1,32 @@
+.map-container {
+  position: relative;
+  height: 100%;
+}
+
 .legend-box {
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 20px;
+  left: 20px;
   background: white;
-  padding: 10px 14px;
+  padding: 16px 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   font-family: "Segoe UI", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   z-index: 999;
-  width: 160px;
+  width: 200px;
 }
 
 .legend-box h4 {
-  margin: 0 0 6px;
-  font-size: 15px;
+  margin: 0 0 10px;
+  font-size: 20px;
 }
 
 .legend-color {
   display: inline-block;
   width: 12px;
   height: 12px;
-  margin-right: 6px;
+  margin-right: 8px;
   border-radius: 2px;
 }
 
@@ -35,9 +40,4 @@
 
 .legend-color.green {
   background-color: #43a047;
-}
-
-.map-container {
-  position: relative; /* <-- Needed */
-  height: 100%;
 }
