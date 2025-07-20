@@ -40,6 +40,7 @@ json_files = [
     "income_data.json",
     "sustainability_data.json",
     "Neighbourhoods - 4326.json",
+    "rent_increase.json",
 
     # Add more if needed
 ]
