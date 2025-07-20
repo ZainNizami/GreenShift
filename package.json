@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "install-client": "npm install --prefix client",
-    "install": "npm run install-client",
     "client": "npm start --prefix client",
+    "install-venv-w": "cd server && python -m venv .venv",
     "server-w": "cd server && .venv\\Scripts\\activate && flask run",
     "server-m": "cd server && source .venv/bin/activate && flask run",
     "dev-w": "concurrently \"npm run client\" \"npm run server-w\"",
