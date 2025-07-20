@@ -12,7 +12,8 @@ function App() {
     <div className="app-container">
       <Map
         onFeatureClick={(data, coords) => {
-          console.log("Feature Clicked!", data, coords);
+          console.log("Feature clicked!", data, coords);
+          
           setPopupData(data);
           setPopupCoords(coords);
           setShowPopup(true);

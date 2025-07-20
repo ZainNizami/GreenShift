@@ -36,3 +36,8 @@
 .legend-color.green {
   background-color: #43a047;
 }
+
+.map-container {
+  position: relative; /* <-- Needed */
+  height: 100%;
+}
